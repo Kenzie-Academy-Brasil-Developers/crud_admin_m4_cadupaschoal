@@ -1,2 +1,4 @@
 import usersControllers from './users.controllers';
-export { usersControllers };
+import { loginController } from './login.controllers';
+import coursesControllers from './courses.controllers';
+export { usersControllers, loginController, coursesControllers };

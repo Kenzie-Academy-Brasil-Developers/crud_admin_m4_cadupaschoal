@@ -1,3 +1,5 @@
-import usersServices from './users.services';
+import usersServices from "./users.services";
+import loginService from "./login.services";
+import coursesServices from "./courses.services";
 
-export { usersServices };
+export { usersServices, loginService, coursesServices };
